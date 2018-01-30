@@ -1,0 +1,26 @@
+{
+  "name": "all-temperatures",
+  "version": "1.0.0",
+  "description": "Module for converting from any temp to Fahrenheit, Kelvin, Celsius, Rankine, Delisle, Newton, Réaumur, and Rømer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjobson/all-temperatures.git"
+  },
+  "author": "Paul Jobson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pjobson/all-temperatures/issues"
+  },
+  "homepage": "https://github.com/pjobson/all-temperatures#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
