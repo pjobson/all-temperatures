@@ -29,6 +29,13 @@ Converts from Celsius to all other temperature types.
 		reaumur: { 'name': 'Réaumur', 'unit': '°Ré', 'value': 32 },
 		romer: { 'name': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
 	}
+	
+For example if you wanted to convert Celsius to Fahrenheit including the unit mark:
+
+    const res = allTemp.celsiusTo(40);
+    console.log( res.fahrenheit.value + res.fahrenheit.unit );
+    // returns
+    104°F
    
 
 ### `delisleTo`
@@ -208,7 +215,7 @@ Returns the unit from the temperature name.
 	allTemp.getUnitFromName('Celsius');
 	
 	// returns
-	'°C'
+	°C
 
 
 ### `getNameFromUnit`
@@ -218,4 +225,4 @@ Returns the name from the temperature unit.
 	allTemp.getNameFromUnit('°C');
 	
 	// returns
-	'Celsius'
+	Celsius
