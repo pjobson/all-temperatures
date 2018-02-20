@@ -20,14 +20,14 @@ Converts from Celsius to all other temperature types.
     
     // returns
 	{
-		celsius: { 'name': 'Celsius', 'unit': '°C', 'value': 40 },
-		delisle: { 'name': 'Delisle', 'unit': '°D', 'value': 90 },
-		fahrenheit: { 'name': 'Fahrenheit', 'unit': '°F', 'value': 104 },
-		kelvin: { 'name': 'Kelvin', 'unit': 'K', 'value': 313.15 },
-		newton: { 'name': 'Newton', 'unit': '°N', 'value': 13.2 },
-		rankine: { 'name': 'Rankine', 'unit': '°R', 'value': 563.67 },
-		reaumur: { 'name': 'Réaumur', 'unit': '°Ré', 'value': 32 },
-		romer: { 'name': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
+		celsius: { 'scale': 'Celsius', 'unit': '°C', 'value': 40 },
+		delisle: { 'scale': 'Delisle', 'unit': '°D', 'value': 90 },
+		fahrenheit: { 'scale': 'Fahrenheit', 'unit': '°F', 'value': 104 },
+		kelvin: { 'scale': 'Kelvin', 'unit': 'K', 'value': 313.15 },
+		newton: { 'scale': 'Newton', 'unit': '°N', 'value': 13.2 },
+		rankine: { 'scale': 'Rankine', 'unit': '°R', 'value': 563.67 },
+		reaumur: { 'scale': 'Réaumur', 'unit': '°Ré', 'value': 32 },
+		romer: { 'scale': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
 	}
 	
 For example if you wanted to convert Celsius to Fahrenheit including the unit mark:
@@ -48,14 +48,14 @@ Converts from Delisle to all other temperature types.
     
     // returns
 	{
-		celsius: { 'name': 'Celsius', 'unit': '°C', 'value': 40 },
-		delisle: { 'name': 'Delisle', 'unit': '°D', 'value': 90 },
-		fahrenheit: { 'name': 'Fahrenheit', 'unit': '°F', 'value': 104 },
-		kelvin: { 'name': 'Kelvin', 'unit': 'K', 'value': 313.15 },
-		newton: { 'name': 'Newton', 'unit': '°N', 'value': 13.2 },
-		rankine: { 'name': 'Rankine', 'unit': '°R', 'value': 563.67 },
-		reaumur: { 'name': 'Réaumur', 'unit': '°Ré', 'value': 32 },
-		romer: { 'name': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
+		celsius: { 'scale': 'Celsius', 'unit': '°C', 'value': 40 },
+		delisle: { 'scale': 'Delisle', 'unit': '°D', 'value': 90 },
+		fahrenheit: { 'scale': 'Fahrenheit', 'unit': '°F', 'value': 104 },
+		kelvin: { 'scale': 'Kelvin', 'unit': 'K', 'value': 313.15 },
+		newton: { 'scale': 'Newton', 'unit': '°N', 'value': 13.2 },
+		rankine: { 'scale': 'Rankine', 'unit': '°R', 'value': 563.67 },
+		reaumur: { 'scale': 'Réaumur', 'unit': '°Ré', 'value': 32 },
+		romer: { 'scale': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
 	}
 
 
@@ -69,14 +69,14 @@ Converts from Fahrenheit to all other temperature types.
     
     // returns
 	{
-		celsius: { 'name': 'Celsius', 'unit': '°C', 'value': 40 },
-		delisle: { 'name': 'Delisle', 'unit': '°D', 'value': 90 },
-		fahrenheit: { 'name': 'Fahrenheit', 'unit': '°F', 'value': 104 },
-		kelvin: { 'name': 'Kelvin', 'unit': 'K', 'value': 313.15 },
-		newton: { 'name': 'Newton', 'unit': '°N', 'value': 13.2 },
-		rankine: { 'name': 'Rankine', 'unit': '°R', 'value': 563.67 },
-		reaumur: { 'name': 'Réaumur', 'unit': '°Ré', 'value': 32 },
-		romer: { 'name': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
+		celsius: { 'scale': 'Celsius', 'unit': '°C', 'value': 40 },
+		delisle: { 'scale': 'Delisle', 'unit': '°D', 'value': 90 },
+		fahrenheit: { 'scale': 'Fahrenheit', 'unit': '°F', 'value': 104 },
+		kelvin: { 'scale': 'Kelvin', 'unit': 'K', 'value': 313.15 },
+		newton: { 'scale': 'Newton', 'unit': '°N', 'value': 13.2 },
+		rankine: { 'scale': 'Rankine', 'unit': '°R', 'value': 563.67 },
+		reaumur: { 'scale': 'Réaumur', 'unit': '°Ré', 'value': 32 },
+		romer: { 'scale': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
 	}
 
 ### `kelvinTo`
@@ -89,14 +89,14 @@ Converts from Kelvin to all other temperature types.
     
     // returns
 	{
-		celsius: { 'name': 'Celsius', 'unit': '°C', 'value': 40 },
-		delisle: { 'name': 'Delisle', 'unit': '°D', 'value': 90 },
-		fahrenheit: { 'name': 'Fahrenheit', 'unit': '°F', 'value': 104 },
-		kelvin: { 'name': 'Kelvin', 'unit': 'K', 'value': 313.15 },
-		newton: { 'name': 'Newton', 'unit': '°N', 'value': 13.2 },
-		rankine: { 'name': 'Rankine', 'unit': '°R', 'value': 563.67 },
-		reaumur: { 'name': 'Réaumur', 'unit': '°Ré', 'value': 32 },
-		romer: { 'name': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
+		celsius: { 'scale': 'Celsius', 'unit': '°C', 'value': 40 },
+		delisle: { 'scale': 'Delisle', 'unit': '°D', 'value': 90 },
+		fahrenheit: { 'scale': 'Fahrenheit', 'unit': '°F', 'value': 104 },
+		kelvin: { 'scale': 'Kelvin', 'unit': 'K', 'value': 313.15 },
+		newton: { 'scale': 'Newton', 'unit': '°N', 'value': 13.2 },
+		rankine: { 'scale': 'Rankine', 'unit': '°R', 'value': 563.67 },
+		reaumur: { 'scale': 'Réaumur', 'unit': '°Ré', 'value': 32 },
+		romer: { 'scale': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
 	}
 
 ### `newtonTo`
@@ -109,14 +109,14 @@ Converts from Newton to all other temperature types.
     
     // returns
 	{
-		celsius: { 'name': 'Celsius', 'unit': '°C', 'value': 40 },
-		delisle: { 'name': 'Delisle', 'unit': '°D', 'value': 90 },
-		fahrenheit: { 'name': 'Fahrenheit', 'unit': '°F', 'value': 104 },
-		kelvin: { 'name': 'Kelvin', 'unit': 'K', 'value': 313.15 },
-		newton: { 'name': 'Newton', 'unit': '°N', 'value': 13.2 },
-		rankine: { 'name': 'Rankine', 'unit': '°R', 'value': 563.67 },
-		reaumur: { 'name': 'Réaumur', 'unit': '°Ré', 'value': 32 },
-		romer: { 'name': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
+		celsius: { 'scale': 'Celsius', 'unit': '°C', 'value': 40 },
+		delisle: { 'scale': 'Delisle', 'unit': '°D', 'value': 90 },
+		fahrenheit: { 'scale': 'Fahrenheit', 'unit': '°F', 'value': 104 },
+		kelvin: { 'scale': 'Kelvin', 'unit': 'K', 'value': 313.15 },
+		newton: { 'scale': 'Newton', 'unit': '°N', 'value': 13.2 },
+		rankine: { 'scale': 'Rankine', 'unit': '°R', 'value': 563.67 },
+		reaumur: { 'scale': 'Réaumur', 'unit': '°Ré', 'value': 32 },
+		romer: { 'scale': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
 	}
 
 
@@ -130,14 +130,14 @@ Converts from Rankine to all other temperature types.
     
     // returns
 	{
-		celsius: { 'name': 'Celsius', 'unit': '°C', 'value': 40 },
-		delisle: { 'name': 'Delisle', 'unit': '°D', 'value': 90 },
-		fahrenheit: { 'name': 'Fahrenheit', 'unit': '°F', 'value': 104 },
-		kelvin: { 'name': 'Kelvin', 'unit': 'K', 'value': 313.15 },
-		newton: { 'name': 'Newton', 'unit': '°N', 'value': 13.2 },
-		rankine: { 'name': 'Rankine', 'unit': '°R', 'value': 563.67 },
-		reaumur: { 'name': 'Réaumur', 'unit': '°Ré', 'value': 32 },
-		romer: { 'name': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
+		celsius: { 'scale': 'Celsius', 'unit': '°C', 'value': 40 },
+		delisle: { 'scale': 'Delisle', 'unit': '°D', 'value': 90 },
+		fahrenheit: { 'scale': 'Fahrenheit', 'unit': '°F', 'value': 104 },
+		kelvin: { 'scale': 'Kelvin', 'unit': 'K', 'value': 313.15 },
+		newton: { 'scale': 'Newton', 'unit': '°N', 'value': 13.2 },
+		rankine: { 'scale': 'Rankine', 'unit': '°R', 'value': 563.67 },
+		reaumur: { 'scale': 'Réaumur', 'unit': '°Ré', 'value': 32 },
+		romer: { 'scale': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
 	}
 
 ### `reaumurTo`
@@ -150,14 +150,14 @@ Converts from Réaumur to all other temperature types.
     
     // returns
 	{
-		celsius: { 'name': 'Celsius', 'unit': '°C', 'value': 40 },
-		delisle: { 'name': 'Delisle', 'unit': '°D', 'value': 90 },
-		fahrenheit: { 'name': 'Fahrenheit', 'unit': '°F', 'value': 104 },
-		kelvin: { 'name': 'Kelvin', 'unit': 'K', 'value': 313.15 },
-		newton: { 'name': 'Newton', 'unit': '°N', 'value': 13.2 },
-		rankine: { 'name': 'Rankine', 'unit': '°R', 'value': 563.67 },
-		reaumur: { 'name': 'Réaumur', 'unit': '°Ré', 'value': 32 },
-		romer: { 'name': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
+		celsius: { 'scale': 'Celsius', 'unit': '°C', 'value': 40 },
+		delisle: { 'scale': 'Delisle', 'unit': '°D', 'value': 90 },
+		fahrenheit: { 'scale': 'Fahrenheit', 'unit': '°F', 'value': 104 },
+		kelvin: { 'scale': 'Kelvin', 'unit': 'K', 'value': 313.15 },
+		newton: { 'scale': 'Newton', 'unit': '°N', 'value': 13.2 },
+		rankine: { 'scale': 'Rankine', 'unit': '°R', 'value': 563.67 },
+		reaumur: { 'scale': 'Réaumur', 'unit': '°Ré', 'value': 32 },
+		romer: { 'scale': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
 	}
 
 ### `romerTo`
@@ -170,14 +170,14 @@ Converts from Rømer to all other temperature types.
     
     // returns
 	{
-		celsius: { 'name': 'Celsius', 'unit': '°C', 'value': 40 },
-		delisle: { 'name': 'Delisle', 'unit': '°D', 'value': 90 },
-		fahrenheit: { 'name': 'Fahrenheit', 'unit': '°F', 'value': 104 },
-		kelvin: { 'name': 'Kelvin', 'unit': 'K', 'value': 313.15 },
-		newton: { 'name': 'Newton', 'unit': '°N', 'value': 13.2 },
-		rankine: { 'name': 'Rankine', 'unit': '°R', 'value': 563.67 },
-		reaumur: { 'name': 'Réaumur', 'unit': '°Ré', 'value': 32 },
-		romer: { 'name': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
+		celsius: { 'scale': 'Celsius', 'unit': '°C', 'value': 40 },
+		delisle: { 'scale': 'Delisle', 'unit': '°D', 'value': 90 },
+		fahrenheit: { 'scale': 'Fahrenheit', 'unit': '°F', 'value': 104 },
+		kelvin: { 'scale': 'Kelvin', 'unit': 'K', 'value': 313.15 },
+		newton: { 'scale': 'Newton', 'unit': '°N', 'value': 13.2 },
+		rankine: { 'scale': 'Rankine', 'unit': '°R', 'value': 563.67 },
+		reaumur: { 'scale': 'Réaumur', 'unit': '°Ré', 'value': 32 },
+		romer: { 'scale': 'Rømer', 'unit': '°Rø', 'value': 28.5 }
 	}
 
 ### `getAllNames`
